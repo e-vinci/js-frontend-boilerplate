@@ -71,7 +71,7 @@ npm run deploy
 
 
 ## Que se passe-t-il en cas de refresh d'une page offert par GitHub Pages ?
-- Imaginez que l'utilisateur fasse un refresh à l'URL **https://[username].github.io/my-super-frontend/login**. GitHub Pages est juste un CDN, un serveur de fichiers statiques. Il n'y a pas de fichier qui correspond à cette URL ! Dès lors, sans ce boilerplate, vous recevriez une **erreur 404** 😨 !
+- Imaginez que l'utilisateur fasse un refresh à l'URL **https://[username].github.io/my-super-frontend/login**. GitHub Pages est juste un CDN, un serveur de fichiers statiques. Il n'y a pas de fichier qui correspond à cette URL ! Dès lors, sans un boilerplate bien configuré, vous recevriez une **erreur 404** 😨 !
 - Lors du build, ce boilerplate créer un fichier **404.html** qui est identique à **index.html**. Ainsi, lorsqu'une ressource n'existe pas, GitHub Page renverra le contenu de 404.html, et ça sera donc notre SPA sera entièrement fonctionnelle, même en cas de refresh 😅 !
 
 
