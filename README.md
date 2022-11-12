@@ -1,4 +1,4 @@
-# Boilerplate pour vos applications modernes utilisant Webpack ainsi qu'un router
+# Boilerplate pour vos applications modernes utilisant Webpack, offrant l'authentification et le déploiement sur GitHub Pages
 ## How to use ?
 - Si vous ne l'avez pas fait, vous pouvez cloner le repo associé au boilerplate pour initier votre application : `git clone https://github.com/e-vinci/js-frontend-boilerplate.git` ou `git clone https://github.com/e-vinci/js-frontend-boilerplate.git nom-de-votre-projet` pour créer votre projet nommé `nom-de-votre-projet`.
 - **package.json** est le fichier de configuration de votre projet. Veuillez le mettre à jour afin de :
